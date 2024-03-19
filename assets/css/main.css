@@ -1,0 +1,48 @@
+/* From https://css.glass */
+.glass {
+    background: rgba(212, 250, 248, 0.19);
+    border-radius: 5px;
+    box-shadow: 0 4px 30px rgba(81, 80, 80, 0.1);
+    backdrop-filter: blur(4.5px);
+    -webkit-backdrop-filter: blur(4.5px);
+    border: 1px solid rgba(161, 4, 252, 0.97);
+}
+.chatbox {
+    height:90vh;
+    width:400px;
+    overflow-y: auto;
+}
+/* #conversationbox {
+    position: absolute;
+    bottom: 0;
+}
+#input_query {
+    position: absolute;
+    bottom: 2;
+} */
+.human {
+    color: gray;
+    word-wrap: break-word;
+    padding: 10px;
+    margin: 2px 5px;
+    /* From https://css.glass */
+    background: rgba(150, 150, 150, 0);
+    border-radius: 8px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border: 1px solid rgba(150, 150, 150, 0.21);
+}
+.bot {
+    color: violet;
+    word-wrap: break-word;
+    padding: 10px;
+    margin: 2px 5px;
+    /* From https://css.glass */
+    background: rgba(167, 37, 233, 0);
+    border-radius: 8px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border: 1px solid rgba(167, 37, 233, 0.21);
+}

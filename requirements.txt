@@ -1,0 +1,14 @@
+# Install required packages
+langchain
+faiss-cpu
+langchainhub
+minio
+jq
+icecream
+streamlit
+dash
+dash-mantine-components
+dash-auth
+dash-iconify
+gunicorn
+langchain-community

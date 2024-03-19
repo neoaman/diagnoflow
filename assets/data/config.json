@@ -1,0 +1,4 @@
+{
+    "index_faiss_url": "http://s3.mlhub.in/public/medical_index/index.faiss?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=amanneo%2F20240319%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240319T210146Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=3f4752b738374bff50cf836965ee1c57f2e74a52ac065a652189469b9f5f4393",
+    "index_pkl_url": "http://s3.mlhub.in/public/medical_index/index.pkl?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=amanneo%2F20240319%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240319T210146Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=29d32bc858488da637399f191a19486e3ce1f679f66cd0fa3493ca1c919dba32"
+}
