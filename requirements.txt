@@ -1,6 +1,6 @@
 # Install required packages
 langchain
-faiss-cpu
+faiss-gpu
 langchainhub
 minio
 jq
