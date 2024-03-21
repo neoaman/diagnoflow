@@ -11,17 +11,11 @@
     height:90vh;
     width:400px;
     overflow-y: auto;
+    overflow-x: hidden;
 }
-/* #conversationbox {
-    position: absolute;
-    bottom: 0;
-}
-#input_query {
-    position: absolute;
-    bottom: 2;
-} */
+
 .human {
-    color: gray;
+    color: rgb(0, 0, 0);
     word-wrap: break-word;
     padding: 10px;
     margin: 2px 5px;
@@ -34,7 +28,7 @@
     border: 1px solid rgba(150, 150, 150, 0.21);
 }
 .bot {
-    color: violet;
+    color: rgb(83, 2, 83);
     word-wrap: break-word;
     padding: 10px;
     margin: 2px 5px;
