@@ -22,7 +22,7 @@ from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
 
 # BASE_URL = "https://d1agn0fl0w.loca.lt/"
 # BASE_URL = "https://diagnoflow.loca.lt/"
-BASE_URL = "https://eager-lines-prove.loca.lt/"
+BASE_URL = "http://0.0.0.0:11434/"
 vector_embedding = "gemma:2b"
 llm_model = "gemma"
 
