@@ -9,7 +9,8 @@ from sqlalchemy.orm import sessionmaker
 
 # Create SQLite engine
 engine = create_engine('sqlite:///patient_database.db', echo=True)
-
+Session = sessionmaker(bind=engine)
+session = Session()
 # Base class for declarative class definitions
 Base = declarative_base()
 

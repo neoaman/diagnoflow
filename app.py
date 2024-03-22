@@ -52,8 +52,9 @@ with st.sidebar:
 ask_name = st.empty()
 with ask_name:
     patient_name = st.text_input("Username")
-    st.session_state["patient_name"] = patient_name
-    st.session_state["patient_info"] = get_patient_yaml(st.session_state["patient_name"])
+    if patient_name:
+      st.session_state["patient_name"] = patient_name
+      st.session_state["patient_info"] = get_patient_yaml(patient_name)
 
 if st.session_state["patient_name"]=="":
     st.stop()
